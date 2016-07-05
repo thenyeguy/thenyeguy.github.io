@@ -1,0 +1,262 @@
+/*
+ * GENERAL
+ */
+body {
+    font-size: 1.8em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    background: fixed url('/images/shattered.png');
+}
+
+a {
+    color: #3390b7;
+}
+
+code, kbd, pre, samp {
+    color: #555;
+    background-color: #f3f3f3;
+    font-family: 'Source Code Pro', monospace !important;
+}
+
+.btn-highlight {
+    color: #333;
+    background-color: #ffd85f;
+    border-color: #ca9800;
+}
+
+.btn-highlight.active, .btn-highlight:hover {
+    background-color: #e8bc2c;
+}
+
+
+/*
+ * NAVBAR
+ */
+.navbar {
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .navbar .container {
+        max-width: 45em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+
+/*
+ * CONTENT BOX
+ */
+#content {
+    background: #fff;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+    #content {
+        max-width: 45em;
+        margin-bottom: 50px;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 1em;
+        border-width: 0 1px;
+        border-color: #e7e7e7;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    #content {
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 0.5em;
+    }
+}
+
+.page-header {
+    padding-bottom: 0;
+}
+
+
+/*
+ * FULL SCREEN DIALOGS
+ * Used on the splash page, and for errors
+ */
+.full-pane .jumbotron {
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 992px) {
+    .full-pane {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        max-width: 61em;
+        font-size: 1.3em;
+    }
+
+    .full-pane .row {
+        display: table;
+    }
+
+    .full-pane .row > div {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+    }
+
+    .full-pane .list-inline > li:before {
+        content: '\00B7';
+        padding-right: 15px;
+    }
+
+    .full-pane .list-inline > li:first-child:before {
+        content: '';
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .full-pane {
+        max-width: 15em;
+        margin: 5% auto;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .full-pane li {
+        display: block;
+    }
+
+    .full-pane .page-header {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .full-pane .portrait {
+        max-width: 12em;
+        margin: 10px auto;
+    }
+}
+
+.full-pane .page-header, .full-pane .page-header h1 {
+    margin-top: 0;
+}
+
+
+/*
+ * ERROR SCREENS
+ */
+.error-page {
+    width: 37em;
+}
+
+@media (max-width: 767px) {
+    .error-page {
+        margin: 5% auto;
+        max-width: 95%;
+    }
+}
+
+.alert .fa {
+    position: relative;
+    top: -2px;
+    margin-right: .3em;
+    vertical-align: middle;
+}
+
+.alert pre {
+    margin-top: 1.2em;
+    background: #F6E9E9;
+}
+
+
+/*
+ * PROJECT LISTING
+ */
+.media {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.media-heading {
+    font-size: 1.4em;
+}
+
+.media-body p {
+    margin-bottom: 0;
+}
+
+.media-left img {
+    width: 64px;
+    height: 64px;
+}
+
+.media-left .fa {
+    display: block;
+    width: 64px;
+    height: 64px;
+    padding: 18px 0;
+    font-size: 28px;
+    text-align: center;
+    color: #aaa;
+    background: #eee;
+}
+
+.media-left a:hover {
+    text-decoration: none;
+}
+
+.taglist {
+    margin-left: 1em;
+}
+
+.taglist .fa {
+    color: #999;
+    font-size: 0.8em;
+}
+
+.taglist .fa-star {
+    color: #e8bc2c;
+}
+
+.taglist .tag-highlight {
+    display: none;
+}
+
+
+/*
+ * RESUME
+ */
+.download-resume {
+    text-transform: lowercase;
+    margin-left: 0.5em;
+}
+
+.download-resume .fa {
+    font-size: 0.7em;
+}
+
+.resume-item {
+    padding-left: 1em;
+}
+
+.resume-item h3 small {
+    margin-left: 1em;
+    font-style: italic
+}
+
+.resume-item p, .resume-item ul {
+    margin: .2em 1em;
+}
