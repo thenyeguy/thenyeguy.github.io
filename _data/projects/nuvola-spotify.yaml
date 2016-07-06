@@ -1,0 +1,7 @@
+name: Nuvola Player Spotify Plugin
+icon: https://tiliado.eu/static/nuvolaplayer/logo.png
+link: https://github.com/tiliado/nuvola-app-spotify
+tags:
+    - open-source
+description: >
+    Spotify plugin for Nuvola Player.
