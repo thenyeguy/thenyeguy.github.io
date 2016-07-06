@@ -1,8 +1,0 @@
-name: oxcable
-icon: fa-music
-link: https://github.com/thenyeguy/oxcable
-tags:
-    - personal-project
-    - audio
-description: >
-    A signal processing framework for making music with Rust.

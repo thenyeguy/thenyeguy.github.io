@@ -1,8 +1,0 @@
-name: ClickTrack
-icon: fa-music
-link: https://github.com/thenyeguy/ClickTrack
-tags:
-    - personal-project
-    - audio
-description: >
-    A simple audio processing and MIDI framework in C++.

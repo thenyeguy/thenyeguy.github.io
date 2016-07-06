@@ -7,8 +7,8 @@ permalink: /projects/
 <div class="row">
     <div class="col-sm-9">
         <ul id="project-list" class="media-list">
-            {% for project_hash in site.data.projects %}
-            {% assign project = project_hash[1] %}
+            {% assign projects = site.data.projects | sort: "name" %}
+            {% for project in projects %}
                 <li class="media">
                     <div class="media-left hidden-xs">
                         <a href="{{ project.link }}">
@@ -29,7 +29,8 @@ permalink: /projects/
                         <div class="taglist">
                             <ul class="list-inline">
                                 <li><span class="fa fa-tags"></span></li>
-                                {% for tag in project.tags %}
+                                {% assign tags = project.tags | sort %}
+                                {% for tag in tags %}
                                 <li class="tag tag-{{tag}}">{{ tag }}</li>
                                 {% endfor %}
                             </ul>

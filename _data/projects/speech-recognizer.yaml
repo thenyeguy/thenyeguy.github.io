@@ -1,8 +1,0 @@
-name: Speech Recognizer
-icon: fa-microphone
-link: https://github.com/thenyeguy/18799
-tags:
-    - school-project
-    - dsp
-description: >
-    A speech recognizer for number sequenes in C.
