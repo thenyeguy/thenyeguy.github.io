@@ -1,11 +1,6 @@
-# Site settings
 title: Michael Nye
 email: michael@michaelnye.com
 description: >
     The online portfolio for Michael Nye.
 baseurl: ""
 url: "http://www.michaelnye.com"
-github_username: thenyeguy
-
-# Build settings
-markdown: kramdown
