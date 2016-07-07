@@ -1,0 +1,15 @@
+/**
+ * Individual resume entries, e.g. a job.
+ */
+.resume-item {
+    padding-left: 1em;
+
+    h3 small {
+        margin-left: 1em;
+        font-style: italic
+    }
+
+    p, ul {
+        margin: .2em 1em;
+    }
+}
