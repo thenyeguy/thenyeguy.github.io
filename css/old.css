@@ -5,7 +5,7 @@ body {
     font-size: 1.8em;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    background: fixed url('/images/shattered.png');
+    background: fixed url('/assets/shattered.png');
 }
 
 a {
