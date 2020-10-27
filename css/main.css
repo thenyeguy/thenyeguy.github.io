@@ -1,0 +1,69 @@
+body {
+    font: 10px "Source Sans Pro", sans-serif;
+    color: #eee;
+    background: url('../assets/zurich.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body:after {
+    content: '\A';
+    position: absolute;
+    z-index: -1;
+    width: 100%; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.3;
+}
+
+#main {
+    background: rgba(20, 20, 20, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    border-radius: 5em;
+    box-shadow: 0 1em 2em #000;
+    text-align: center;
+}
+
+#portrait {
+    display: block;
+    margin: 1em auto;
+    width: 15em;
+    border: 1px solid #eee;
+    border-radius: 3em;
+}
+
+#name {
+    margin: 0.5em;
+    padding: 0;
+    font-weight: 400;
+    font-size: 3.5em;
+}
+
+#links {
+    margin: 0;
+    padding: 0;
+}
+
+#links li {
+    display: inline;
+    margin: 0.2em;
+    font-size: 3.5em;
+}
+
+#links li a {
+    color: #eee;
+    text-decoration: none;
+}
+
+#links li a:hover {
+    color: #aaa;
+}
+
+#links .text-label {
+    display: none
+}
