@@ -1,7 +1,7 @@
 body {
     font: 10px "Source Sans Pro", sans-serif;
     color: #eee;
-    background: url('../assets/zurich.jpg') no-repeat center center fixed;
+    background: #555 url('../assets/zurich.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -14,15 +14,18 @@ body:after {
     top: 0;
     left: 0;
     background: #000;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 #main {
-    background: rgba(20, 20, 20, 0.8);
+    background: rgba(20, 20, 20, 0.85);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: 80%;
+    overflow: scroll;
+    width: 23em;
     padding: 2em;
     border-radius: 5em;
     box-shadow: 0 1em 2em #000;
@@ -31,10 +34,10 @@ body:after {
 
 #portrait {
     display: block;
-    margin: 1em auto;
-    width: 15em;
-    border: 1px solid #eee;
-    border-radius: 3em;
+    margin: 0.8em;
+    width: 21em;
+    border: .2em solid #eee;
+    border-radius: 2.2em;
 }
 
 #error-icon {
@@ -45,21 +48,21 @@ body:after {
 }
 
 #name {
-    margin: 0.5em;
+    margin: 0.5em 0;
     padding: 0;
     font-weight: 400;
     font-size: 3.5em;
 }
 
 #links {
-    margin: 0;
+    margin: 0.6em 0;
     padding: 0;
 }
 
 #links li {
     display: inline;
     margin: 0.2em;
-    font-size: 3.5em;
+    font-size: 3.7em;
 }
 
 #links li a {
@@ -77,7 +80,7 @@ body:after {
 
 #error-icon {
     display: block;
-    margin: .2em auto;
+    margin: .5em auto;
     font-size: 5em;
     color: #d55;
 }
