@@ -24,7 +24,7 @@ body:after {
     left: 50%;
     transform: translate(-50%, -50%);
     max-height: 80%;
-    overflow: scroll;
+    overflow: auto;
     width: 23em;
     padding: 2em;
     border-radius: 5em;
